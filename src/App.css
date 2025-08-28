@@ -14,9 +14,11 @@
 }
 
 .app-title {
-  color: #764ba2;
-  font-size: 2rem;
-  font-weight: bold;
+  color: #FF69B4;
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: 'Comfortaa', cursive;
+  text-shadow: 2px 2px 4px rgba(255, 182, 193, 0.5);
 }
 
 .nav-links {
@@ -25,12 +27,13 @@
 }
 
 .nav-links a {
-  color: #667eea;
+  color: #FF69B4;
   text-decoration: none;
-  font-weight: 500;
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
+  font-weight: 600;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
   transition: all 0.3s ease;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .nav-links a:hover {
@@ -56,6 +59,7 @@
 
 .home h2 {
   color: #333;
+  font-size: 2.5rem;
   margin-bottom: 1.5rem;
 }
 
@@ -74,10 +78,10 @@
 }
 
 .filters select {
-  padding: 0.5rem;
+  padding: 0.7rem;
   border: 2px solid #e0e0e0;
   border-radius: 8px;
-  font-size: 1rem;
+  font-size: 1.2rem;
   transition: border-color 0.3s;
 }
 
@@ -87,15 +91,16 @@
 }
 
 .generate-btn {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #FF69B4 0%, #FFB6C1 100%);
   color: white;
   border: none;
-  padding: 1rem 2rem;
-  font-size: 1.1rem;
+  padding: 1.2rem 2.5rem;
+  font-size: 1.4rem;
   font-weight: bold;
-  border-radius: 8px;
+  border-radius: 25px;
   cursor: pointer;
   transition: transform 0.3s;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .generate-btn:hover {
